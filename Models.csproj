@@ -1,16 +1,13 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net8.0-windows</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <UseWindowsForms>true</UseWindowsForms>
-    <TargetOSVersion>8.0</TargetOSVersion> 
   </PropertyGroup>
 
   <ItemGroup>
     <Compile Remove="Class1.cs" />
-    
-    </ItemGroup>
+  </ItemGroup>
 
 </Project>
